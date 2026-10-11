@@ -2359,6 +2359,7 @@ GameObject:
   - component: {fileID: 418051022}
   - component: {fileID: 418051024}
   - component: {fileID: 418051025}
+  - component: {fileID: 418051026}
   m_Layer: 0
   m_Name: Darts Target 9
   m_TagString: Target
@@ -2375,7 +2376,7 @@ Transform:
   m_GameObject: {fileID: 418051019}
   serializedVersion: 2
   m_LocalRotation: {x: 0.65159607, y: 0.2746319, z: 0.2746319, w: 0.65159607}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.085166}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.05}
   m_LocalScale: {x: 0.6334964, y: 0.10010004, z: 0.6334964}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2487,6 +2488,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &418051026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418051019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 9
+  hitColor: {r: 0.745283, g: 0.1885815, b: 0, a: 1}
 --- !u!1 &449985163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,6 +4092,7 @@ GameObject:
   - component: {fileID: 739883890}
   - component: {fileID: 739883893}
   - component: {fileID: 739883894}
+  - component: {fileID: 739883895}
   m_Layer: 0
   m_Name: Darts Target 5 point
   m_TagString: Target
@@ -4150,7 +4166,7 @@ Transform:
   m_GameObject: {fileID: 739883888}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.1452103}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.25}
   m_LocalScale: {x: 3, y: 0.10000002, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4205,6 +4221,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &739883895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739883888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 5
+  hitColor: {r: 0.22337028, g: 0.8679245, b: 0.18422928, a: 1}
 --- !u!1 &741641421
 GameObject:
   m_ObjectHideFlags: 0
@@ -4821,7 +4851,7 @@ GameObject:
   - component: {fileID: 760811998}
   m_Layer: 0
   m_Name: Projectile Shpere 2
-  m_TagString: Untagged
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5088,6 +5118,7 @@ GameObject:
   - component: {fileID: 790568810}
   - component: {fileID: 790568812}
   - component: {fileID: 790568813}
+  - component: {fileID: 790568814}
   m_Layer: 0
   m_Name: Darts Target 10
   m_TagString: Target
@@ -5104,7 +5135,7 @@ Transform:
   m_GameObject: {fileID: 790568807}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.0701513}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1}
   m_LocalScale: {x: 0.3167482, y: 0.10010005, z: 0.31674817}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5216,6 +5247,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &790568814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790568807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 10
+  hitColor: {r: 0.5764706, g: 0, b: 0.010740213, a: 1}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5797,6 +5842,7 @@ GameObject:
   - component: {fileID: 1101974943}
   - component: {fileID: 1101974945}
   - component: {fileID: 1101974946}
+  - component: {fileID: 1101974947}
   m_Layer: 0
   m_Name: Darts Target 6
   m_TagString: Target
@@ -5813,7 +5859,7 @@ Transform:
   m_GameObject: {fileID: 1101974940}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70695364, y: -0.014718229, z: -0.014718229, w: 0.70695364}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.1302099}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.2}
   m_LocalScale: {x: 2.1, y: 0.10010002, z: 2.1000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5925,6 +5971,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1101974947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101974940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 6
+  hitColor: {r: 0.37249362, g: 1, b: 0.015686274, a: 1}
 --- !u!1 &1116719823
 GameObject:
   m_ObjectHideFlags: 0
@@ -9244,6 +9304,7 @@ GameObject:
   - component: {fileID: 1656570285}
   - component: {fileID: 1656570287}
   - component: {fileID: 1656570288}
+  - component: {fileID: 1656570289}
   m_Layer: 0
   m_Name: Darts Target 8
   m_TagString: Target
@@ -9260,7 +9321,7 @@ Transform:
   m_GameObject: {fileID: 1656570282}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.1001806}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.1}
   m_LocalScale: {x: 0.9746099, y: 0.10010003, z: 0.9746099}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9372,6 +9433,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1656570289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656570282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 8
+  hitColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &1656925405
 GameObject:
   m_ObjectHideFlags: 0
@@ -10305,7 +10380,7 @@ GameObject:
   - component: {fileID: 1772493653}
   m_Layer: 0
   m_Name: Projectile Shpere 3
-  m_TagString: Untagged
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11631,7 +11706,7 @@ GameObject:
   - component: {fileID: 1923386286}
   m_Layer: 0
   m_Name: Projectile Shpere 1
-  m_TagString: Untagged
+  m_TagString: Throwable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12890,6 +12965,7 @@ GameObject:
   - component: {fileID: 2136976210}
   - component: {fileID: 2136976212}
   - component: {fileID: 2136976213}
+  - component: {fileID: 2136976214}
   m_Layer: 0
   m_Name: Darts Target 7
   m_TagString: Target
@@ -12906,7 +12982,7 @@ Transform:
   m_GameObject: {fileID: 2136976207}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6425365, y: 0.29520643, z: 0.29520643, w: 0.6425365}
-  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.1151953}
+  m_LocalPosition: {x: -0.63216, y: -0.73408985, z: 1.15}
   m_LocalScale: {x: 1.4993999, y: 0.100100026, z: 1.4994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13018,6 +13094,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2136976214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136976207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f611dd3ec4ebd42a1fe8dab0302f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetRing
+  pointsValue: 7
+  hitColor: {r: 0.86099, g: 1, b: 0.015686274, a: 1}
 --- !u!1 &2146483109
 GameObject:
   m_ObjectHideFlags: 0
@@ -13027,6 +13117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2146483110}
+  - component: {fileID: 2146483111}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -13055,6 +13146,19 @@ Transform:
   - {fileID: 739883892}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2146483111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146483109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bb5cdd8d0fa574d827668faa86d63c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
+  scoreText: {fileID: 1501641621}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
