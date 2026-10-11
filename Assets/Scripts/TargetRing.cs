@@ -32,7 +32,7 @@ public class TargetRing : MonoBehaviour
                 ScoreManager.Instance.AddScore(pointsValue);
             }
 
-            // 2. Declanșează efectul vizual pe acest inel
+            // 2. Efect vizual
             if (flashCoroutine != null)
                 StopCoroutine(flashCoroutine);
 
